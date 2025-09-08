@@ -166,7 +166,7 @@ header .fa-bars{
    .home .content p{
       padding: 1.5rem 2rem;
    }
-   .home::before{
+   .he::before{
       display:none;
    }
 }
