@@ -1,0 +1,14 @@
+document.getElementById('img-menu').addEventListener('click', function() {
+   if(this.src.includes('menu-bar.png')) {
+     this.src = 'img/close.png';
+     document.querySelector('.navbar').classList.toggle('active');
+     document.querySelector('.navbar').classList.add('.div-navbar');
+     document.querySelector('.navbar').style.alien
+   }
+      else {
+      this.src = 'img/menu-bar.png';
+      document.querySelector('.navbar').classList.toggle('active');
+
+      }
+
+})

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+   --pink:#ff046f;
+   --violet:#c63bfa;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+*::selection{
+   background: var(--pink);
+   color:#fff;
+
+}
+html{
+   font-size: 62.5%;
+   overflow: hidden;
+}
+body{
+   background-color: #333;
+}
+header{
+   width: 96%;
+   background-color: #fff;
+   position: fixed;
+   top: 2rem; left: 50%;
+   transform: translateX(-50%);
+   border-radius: 5rem;
+   display:flex;
+   align-items:end;
+   justify-content:end;
+   padding: 1rem 2rem;
+   z-index: 1000;
+   margin-left: 0px;
+}
+#img-logo{
+   width: 30px;
+   height:30px;
+   color: var(--pink);
+   padding: 0.3rem;
+   
+}
+
+.logo{
+   
+   align-items: start;
+   justify-content:start;
+   text-align: start;
+   width:800px;
+   font-size:2.5em;
+   color: var(--pink);
+   text-transform: uppercase;
+}
+
+header .navbar ul{
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   list-style: none;
+
+}
+header .navbar ul li{
+   margin: 0 1rem;
+}
+header .navbar ul li a{
+   font-size: 2rem;
+   color: var(--pink);
+}
+header .navbar ul li a:hover{
+   color: var(--violet);
+}
+
+#img-menu{
+   width: 30px;
+   height:30px;
+   color: var(--pink);
+   padding: 0.3rem;
+   cursor: pointer;
+}
+
+header .fa-bars{
+   font-size: 3rem;
+   color: var(--pink);
+   cursor: pointer;
+   display: none;
+}
+
+@media screen and (max-width:768px){
+   html{
+      font-size: 55%;
+   }
+   header{
+      width: 90%;
+      padding: 1rem;
+   }
+   .logo{
+      font-size: 2rem;
+      width:700px;
+   }
+   header .navbar{
+      position: fixed;
+      top:-100rem; left:0;
+      background-color: #fff;
+      width: 100%;
+      border-radius: 1rem;
+      box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+      
+      max-height: 0;
+      transition: max-height 0.3s ease;
+   }
+   header .navbar ul{
+      flex-flow: column;
+      padding:2rem 0;
+   }
+   header .navbar ul li{
+      margin:1rem 0;
+      width: 100%;
+   }
+   header .fa-bars{
+      display: block;
+   }
+   header .navbar.active{
+      max-height: 300px;
+   }
+   header .navbar.active{
+      top: 100%; left: 0;
+      padding: 2rem;
+   }
+   
+}
+.div-navbar{
+   width: 80%;
+   height:30vh;
+   background-attachment:white;
+   position: relative;
+   top: 10vh;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+
+   
+   
+
+}
+.div-navbar li{
+   align-items: center;
+   justify-content: center;
+   font-size: 2.5rem;
+   background-color: white;
+   color: var(--pink);
+   padding: 2rem;
+   text-transform: uppercase;
+}
