@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.navbor{
+   width:100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: #f2f2f2;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#logo{
+   width: 40px;
+   height:40px;
+   position:relative;
+   top: 0px;
+   left: 10px;
+   padding: 20px;
+}
+.logo{
+   display: flex;
+   width:95%;
+   height: 70px;
+   background: rgba(92, 20, 187, 0.5);
+   margin-top:5px;
+   border-radius: 100px;
+   margin-left: 40px;
+   
+   
+
+}
+.nav-links{
+   display: flex;
+   justify-content:end;
+   position: relative;
+   top: -70px;
+   right: 50px;
+   
+}
+li{
+   margin: 10px;
+
+}
+#menu1{
+   display: none;
+   transition: 2s;
+   transform:rotate(180deg);
+   
+}
+
+@media  (max-width: 780px){
+   .nav-links{
+      display: none;
+   }
+   .logo{
+      margin-left: 20px;
+   }
+   #menu1{
+      display: block;
+      position: relative;
+      top: 15px;
+      left: 65%;
+      margin-right: 10px;
+      width: 40px;;
+      height: 40px;
+
+   }
+
+   
+}
+@media screen and (max-width: 600px){
+   .logo{
+      width:94%;
+      height: 50px;
+      margin-left: 10px;
+      border-radius: 40px;
+      margin-left: 10px;
+   }
+   #menu1{
+      left:65%;
+      width: 30px;
+      height: 30px;
+       width: 40px;
+      height: 40px;
+      top: 5px;
+
+   }
+   .logo h2{
+      height: 40px;
+      border-radius: 10px;
+      padding: 0%;
+      position: relative;
+      top: -10px;
+      left: 20px;
+      display: flex;
+      
+      
+   }
+   .logo{
+      padding: 0px;
+   }
+   #logo{
+      width: 30px;
+      height: 30px;
+      padding: 10px;
+   }
+}
+@media   (max-width: 400px){
+   #menu1{
+      left: 0%;
+      margin-left: 50%;
+      width: 40px;
+      height: 40px;
+      top: 10px;
+      
+   }
+   
+   
+}
+
+.nav-bor1{
+   position: relative;
+   top: 20px;
+   display: flex;
+   width: 100%;
+      justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: auto;
+   filter: blur(0.2px);
+   background-color: rgba(249, 215, 250, 0.555);
+ 
+
+}
+
+
+ .nav-bor1 ol{
+      border:0.3px solid black;
+      margin-top: 2px;
+      padding: 5px;
+   }
+   .nav-bor1 ol:hover{
+      background: rgba(187, 20, 107, 0.5);
+      color: white;
+      border: none;
+      transition: 0.3s;
+   }
+
+   .home img{
+      width: 100%;
+      height:100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      margin-top: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+
+   .home-text{
+     position: relative;
+     top:-40px;
+   }
+   .home-text h1{
+      font-size: 50px;
+      text-align: center;
+      position: relative;
+      
+      font-weight: 900;
+      text-shadow: 1x 1x 4px #000000;
+      display: block
+
+   }
+   .home-text p{
+      font-size: 20px;
+      text-align: center;
+      color: black;
+      font-weight: 500;
+      text-shadow: 1x 1x 4px #000000;
+      display: block
+   }
+   .home-text button{
+      display: block;
+      margin: auto;
+      padding: 10px 20px;
+      font-size: 20px;
+      margin-top:80px;
+      border: none;
+      border-radius: 20px;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: rgb(252, 206, 0);
+
+   }
+   .home-text button:hover{
+      background: rgba(92, 20, 187, 0.642);
+
+      transition: 0.2;
+   }
+   .home-second{
+
+
+
+   }
+.tree-div img {
+width: 40px;
+height: 40px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+   }
+   .tree-div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: -20px;
+      gap: 20px;
+      display: inline;
+      margin-bottom: 20px;
+      background-color: white;
+      width:200px;
+      height: 160px;
+      z-index: 1;
+   }
+      
+   .tree-div{
+
+      width: 2000px;
+      background-color: #000000;
+      height: 180px;
+   }
+   
+   .tree-1{
+      width: 200px;
+      height: 160px;
+      background-color: #000000;
+   }
