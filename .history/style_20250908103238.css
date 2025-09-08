@@ -86,10 +86,6 @@ header .navbar ul li a:hover{
    padding: 0.3rem;
    cursor: pointer;
 }
-#img-menu:hover{
-  
-   transform: scale(1.1);
-}
 
 header .fa-bars{
    font-size: 3rem;
@@ -163,12 +159,6 @@ header .fa-bars{
       color:#fff;
    }
    
-   .home .content p{
-      padding: 1.5rem 2rem;
-   }
-   .hone::before{
-      display:none;
-   }
 }
 .div-navbar{
    width: 80%;
@@ -276,45 +266,12 @@ header .fa-bars{
    flex-flow:wrap;
 }
 .home .box-container .box{
-   width: 20rem;
+   width: 30rem;
    margin: 1rem;
    padding: 2rem;
    background-color: rgba(255, 255, 255, 0.765);
    border-radius: .5rem;
-   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
    text-align: center;
    transition: all 0.3s ease;
-}
-.home .box-container .box:hover{
-   background-color: var(--violet);
-   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-   transform: translateY(-.2rem) scale(1.09);
-}
-.home .box-container i{
-   height: 6rem;
-   width: 6rem;
-   line-height: 6rem;
-   text-align: center;
-   border-radius: 50%;
-   background-color: var(--pink);
-   margin: 2rem 0;
-   transition: 0.2s;
-}
-
-.home .box-container h3{
-   font-size: 2rem;
-   color: var(--pink);
-   transition: .2a;
-}
-.home::before{
-   content: '';
-   position: absolute;
-   bottom: -27rem; left:50%;
-   transform: translateX(-50%);
-   width: 120%;
-   border-top: 70vh solid #fff;
-   background-color: rgba(0, 0, 0, 0.3);
-   border-radius: 50%;
-
-   z-index: -1;
 }

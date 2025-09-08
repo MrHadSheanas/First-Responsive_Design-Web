@@ -86,10 +86,7 @@ header .navbar ul li a:hover{
    padding: 0.3rem;
    cursor: pointer;
 }
-#img-menu:hover{
-  
-   transform: scale(1.1);
-}
+#
 
 header .fa-bars{
    font-size: 3rem;
@@ -163,12 +160,6 @@ header .fa-bars{
       color:#fff;
    }
    
-   .home .content p{
-      padding: 1.5rem 2rem;
-   }
-   .hone::before{
-      display:none;
-   }
 }
 .div-navbar{
    width: 80%;

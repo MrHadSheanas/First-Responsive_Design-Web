@@ -163,12 +163,7 @@ header .fa-bars{
       color:#fff;
    }
    
-   .home .content p{
-      padding: 1.5rem 2rem;
-   }
-   .hone::before{
-      display:none;
-   }
+   .home
 }
 .div-navbar{
    width: 80%;

@@ -88,7 +88,7 @@ header .navbar ul li a:hover{
 }
 #img-menu:hover{
   
-   transform: scale(1.1);
+   transform: scale(1.);
 }
 
 header .fa-bars{
@@ -163,12 +163,6 @@ header .fa-bars{
       color:#fff;
    }
    
-   .home .content p{
-      padding: 1.5rem 2rem;
-   }
-   .hone::before{
-      display:none;
-   }
 }
 .div-navbar{
    width: 80%;

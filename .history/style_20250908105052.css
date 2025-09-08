@@ -167,7 +167,7 @@ header .fa-bars{
       padding: 1.5rem 2rem;
    }
    .hone::before{
-      display:none;
+      display: nb;
    }
 }
 .div-navbar{
