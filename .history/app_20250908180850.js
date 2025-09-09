@@ -12,3 +12,7 @@ document.getElementById('img-menu').addEventListener('click', function() {
 
 })
 
+${'.home'}.addEventListener('click', function() {
+   document.getElementById('img-menu').src = 'img/menu-bar.png';
+   document.querySelector('.navbar').classList.remove('active');
+}

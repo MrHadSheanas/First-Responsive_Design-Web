@@ -25,22 +25,6 @@ html{
    font-size: 62.5%;
    overflow: hidden;
 }
-.heading{
-   font-size: 4rem;
-   color: var(--pink);
-   text-align: center;
-   padding:0 1rem;
-   padding-top: 6rem;
-   letter-spacing: .2rem;
-   font-weight: 500;
-}
-.title{
-   padding: 0 1rem;
-   font-size: 2rem;
-   text-align: center;
-   color: white;
-   font-weight: 400;
-}
 body{
    background-color: #333;
 }
@@ -327,19 +311,10 @@ header .fa-bars{
    position: absolute;
    bottom: -27rem; left:50%;
    transform: translateX(-50%);
-   width: 100%;
+   width: 1%;
    border-top: 70vh solid #fff;
    background-color: rgba(0, 0, 0, 0.3);
    border-radius: 50%;
 
    z-index: -1;
-}
-
-
-.about{
-   z-index: 1000;
-   position: relative;
-   
-
-
 }

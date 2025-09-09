@@ -39,7 +39,7 @@ html{
    font-size: 2rem;
    text-align: center;
    color: white;
-   font-weight: 400;
+   font-weight: ;
 }
 body{
    background-color: #333;
@@ -337,9 +337,7 @@ header .fa-bars{
 
 
 .about{
-   z-index: 1000;
+   z-index: 1;
    position: relative;
-   
-
 
 }

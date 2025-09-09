@@ -31,15 +31,7 @@ html{
    text-align: center;
    padding:0 1rem;
    padding-top: 6rem;
-   letter-spacing: .2rem;
-   font-weight: 500;
-}
-.title{
-   padding: 0 1rem;
-   font-size: 2rem;
-   text-align: center;
-   color: white;
-   font-weight: 400;
+   le
 }
 body{
    background-color: #333;
@@ -335,11 +327,3 @@ header .fa-bars{
    z-index: -1;
 }
 
-
-.about{
-   z-index: 1000;
-   position: relative;
-   
-
-
-}
